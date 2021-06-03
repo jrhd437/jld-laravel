@@ -1,0 +1,35 @@
+footer {
+    color: #EEE;
+    background-color: rgba(43, 50, 71, 0.9);
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    @media screen and (max-width: $mobile-breakpoint) {
+        display: block;
+        border-radius: unset;
+    }
+
+    section{
+        display: block;
+        width: 100%;
+        @media screen and (max-width: $mobile-breakpoint) {
+            display: block;
+            width: unset;
+        }
+    }
+
+    .footer-title{
+        font-size: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid white;
+        margin-bottom: 1rem;
+        display: block;
+    }
+
+    .footer-social{
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 2.5rem;
+        a{
+            color: cyan;
+        }
+    }
+}
