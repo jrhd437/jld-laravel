@@ -12,10 +12,12 @@
 </head>
 
 <body>
-    <header>
+    <div id="app">
+    <header id="top">
         <div id="logo">
             Jared Leach
         </div>
+        <div id="menuHandle" v-on:click="showNav = !showNav"><img src="/images/menu.svg" /></div>
         <nav>
             <a href="/">Home</a>
             <a href="/education">Education</a>

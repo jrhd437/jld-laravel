@@ -73,12 +73,36 @@
                     </p>'
                 ],
                 [
+                    'image' => 'sass.png',
+                    'alt' => 'Sass',
+                    'title' => 'Sass',
+                    'body' => '<p>
+                        I frequently use Sass for both custom CSS and for customizing CSS frameworks like Bootstrap.
+                    </p>'
+                ],
+                [
                     'image' => 'sql.png',
                     'alt' => 'MySQL',
                     'title' => 'Relational Database and SQL',
                     'body' => '<p>
                         Whether for MySQL, MariaDB, PostgreSQL, MDB files, or SQLite, SQL is used extensively is modern web applications
                         and I have used it for many years.
+                    </p>'
+                ],
+                [
+                    'image' => 'git.png',
+                    'alt' => 'Git',
+                    'title' => 'Git',
+                    'body' => '<p>
+                        Git, for version control, is something I use for nearly every project.
+                    </p>'
+                ],
+                [
+                    'image' => 'linux.png',
+                    'alt' => 'Linux',
+                    'title' => 'Linux',
+                    'body' => '<p>
+                        I have used Linux extensively on the server/VM and the desktop.
                     </p>'
                 ],
             ];

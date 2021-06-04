@@ -9,7 +9,23 @@ header {
     backdrop-filter : blur(5px);
     box-shadow: 0px 0px 7px 0px #555;
     @media screen and (max-width: $mobile-breakpoint) {
+        padding: 0rem 0rem;
+    }
+}
+
+header > #menuHandle{
+    display: none;
+    @media screen and (max-width: $mobile-breakpoint) {
         display: block;
+        max-width: 20vw;
+        max-height: 3rem;
+        padding-top: 0.5rem;
+        text-align: center;
+        vertical-align: middle;
+        img{
+            max-width: 80%;
+            max-height: 80%;
+        }
     }
 }
 
@@ -27,7 +43,7 @@ header>nav {
     justify-content: space-between;
     background-color: rbga(255, 255, 255, 0.8);
     @media screen and (max-width: $mobile-breakpoint) {
-        display: block;
+        display: none;
     }
 
     a {
@@ -37,7 +53,7 @@ header>nav {
         text-align: center;
         transition: background-color 0.5s, color 0.5s;
         @media screen and (max-width: $mobile-breakpoint) {
-            display: block;
+            display: none;
         }
     }
 
